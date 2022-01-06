@@ -100,7 +100,11 @@ export EDITOR='/usr/bin/nvim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias n="neofetch"
+alias n="neofetch | lolcat"
+alias g="gtop"
+alias h="htop"
+alias hp="history | grep"
+alias cs="cowsay"
 alias zsc="vi ~/.zshrc"
 alias zss="source ~/.zshrc"
 alias ra="ranger"
@@ -112,6 +116,7 @@ sudo dhcpcd &"
 alias lg="lazygit"
 alias proxy="export all_proxy=socks5://127.0.0.1:1089"
 alias unproxy="unset all_proxy"
+alias pm="pulsemixer"
 
 #Export location
 # export http_proxy=socks5://127.0.0.1:1089
