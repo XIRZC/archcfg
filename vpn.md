@@ -78,7 +78,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
     vmess://eyJwb3J0Ijo0NDMsInBzIjoiZW1tLmlua192bWVzc193cyIsInRscyI6InRscyIsImlkIjoiZTdlM2IxNmUtNThhNS00NzUzLTk4NjYtNmRhNTllZjZmYWNhIiwiYWlkIjowLCJ2IjoyLCJob3N0IjoiZW1tLmluayIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9rY2NldndzIiwibmV0Ijoid3MiLCJhZGQiOiJlbW0uaW5rIiwiYWxsb3dJbnNlY3VyZSI6MCwibWV0aG9kIjoibm9uZSIsInBlZXIiOiJlbW0uaW5rIiwic25pIjoiZW1tLmluayJ9
 
  ---> 二维码 vmess(VMess+WS+TLS)
-    https://api.qrserver.com/v1/create-qr-code?size=400x400&data=vmess://eyJwb3J0Ijo0NDMsInBzIjoiZW1tLmlua192bWVzc193cyIsInRscyI6InRscyIsImlkIjoiZTdlM2IxNmUtNThhNS00NzUzLTk4NjYtNmRhNTllZjZmYWNhIiwiYWlkIjowLCJ2IjoyLCJob3N0IjoiZW1tLmluayIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9rY2NldndzIiwibmV0Ijoid3MiLCJhZGQiOiJlbW0uaW5rIiwiYWxsb3dJbnNlY3VyZSI6MCwibWV0aG9kIjoibm9uZSIsInBlZXIiOiJlbW0uaW5rIiwic25pIjoiZW1tLmluayJ9
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vmess://eyJwb3J0Ijo0NDMsInBzIjoiZW1tLmlua192bWVzc193cyIsInRscyI6InRscyIsImlkIjoiZTdlM2IxNmUtNThhNS00NzUzLTk4NjYtNmRhNTllZjZmYWNhIiwiYWlkIjowLCJ2IjoyLCJob3N0IjoiZW1tLmluayIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9rY2NldndzIiwibmV0Ijoid3MiLCJhZGQiOiJlbW0uaW5rIiwiYWxsb3dJbnNlY3VyZSI6MCwibWV0aG9kIjoibm9uZSIsInBlZXIiOiJlbW0uaW5rIiwic25pIjoiZW1tLmluayJ9
 
 
 =============================== VLESS gRPC TLS CDN ===============================
@@ -121,4 +121,3 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 
  ---> 二维码 Trojan gRPC(TLS)
     https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=trojan%3a%2f%2fe7e3b16e-58a5-4753-9866-6da59ef6faca%40emm.ink%3a443%3Fencryption%3Dnone%26security%3Dtls%26peer%3demm.ink%26type%3Dgrpc%26sni%3demm.ink%26path%3Dkccetrojangrpc%26alpn%3D=h2%26serviceName%3Dkccetrojangrpc%23emm.ink_Trojan_gRPC
-/
