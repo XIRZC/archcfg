@@ -114,9 +114,11 @@ sudo dhcpcd &"
 alias wfk="sudo wpa_supplicant -c ~/Network_619.conf -i wlan0 &
 sudo dhcpcd &"
 alias lg="lazygit"
-alias proxy="export all_proxy=socks5://127.0.0.1:1089"
-alias unproxy="unset all_proxy"
+alias epx="export all_proxy=socks5://127.0.0.1:1089"
+alias dpx="unset all_proxy"
 alias pm="pulsemixer"
+alias mci="sudo make clean install"
+alias ts="trans -t en+zh-CN"
 
 #Export location
 # export http_proxy=socks5://127.0.0.1:1089
