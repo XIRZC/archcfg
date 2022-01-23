@@ -119,6 +119,7 @@ alias dpx="unset all_proxy"
 alias pm="pulsemixer"
 alias mci="sudo make clean install"
 alias ts="trans -t en+zh-CN"
+alias i="nvim -c VimwikiIndex"
 
 #Export location
 # export http_proxy=socks5://127.0.0.1:1089
