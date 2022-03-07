@@ -94,24 +94,20 @@ export EDITOR='/usr/bin/vim'
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias n="neofetch | lolcat"
-alias g="gtop"
-alias h="htop"
+# users are encourage
+alias jn="jupyter notebook"
+alias jl="jupyter lab"
 alias hp="history | grep"
 alias cs="cowsay"
 alias zsc="vi ~/.zshrc"
+alias syyu="sudo pacman -Syyu"
+alias sps="sudo pacman -S"
 alias zss="source ~/.zshrc"
 alias ra="ranger"
 alias c="clear"
 alias wfj="sudo wpa_supplicant -c ~/MrXir.conf -i wlan0 &
 sudo dhcpcd &"
-alias wfk="sudo wpa_supplicant -c ~/Network_619.conf -i wlan0 &
+alias wfk="sudo wpa_supplicant -c ~/net.conf -i wlan0 &
 sudo dhcpcd &"
 alias lg="lazygit"
 alias epx="export all_proxy=socks5://127.0.0.1:1089"
@@ -140,3 +136,5 @@ source ~/.config/zsh/completion.zsh
 source ~/.config/zsh/vi.zsh
 source ~/.config/zsh/mappings.zsh
 source /opt/miniconda/etc/profile.d/conda.sh
+
+conda activate learn
